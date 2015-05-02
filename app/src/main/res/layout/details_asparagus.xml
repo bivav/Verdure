@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cyberChautari.verdure.MainActivity" android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+    
+<TextView
+        android:id="@+id/dropDownVegetable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selectedVegetable"
+        android:textSize="20sp" 
+        android:paddingBottom="10dp" />
+
+    
+<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:fillViewport="true"
+	    android:orientation="vertical" >
+    
+    <!--       Tables     -->
+    <TableLayout
+         android:id = "@+id/Vegetables"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:padding="5dp"       
+         android:shrinkColumns="*"
+         android:stretchColumns="*"
+         android:background="#6331dd04" >
+         
+     <TableRow 
+         android:layout_height="wrap_content"
+         android:padding="5dp" >
+         
+         <TextView
+             android:id="@+id/SciName"
+             android:layout_weight="1"
+             android:paddingRight="8dp"
+             android:text="Scientific name of vegetables"
+             android:layout_height="wrap_content"
+			 android:textSize="15sp" />
+         
+         <TextView
+             android:id="@+id/SciNameValue"
+             android:layout_weight="1"
+             android:text="Asparagus officinalis"
+             android:layout_height="wrap_content"
+             android:textSize="15sp" />
+     </TableRow>
+
+     <TableRow 
+         android:layout_height="wrap_content"
+         android:padding="5dp">
+         <TextView
+             android:id="@+id/NepaliName"
+             android:text="Nepali name"
+             android:layout_weight="1"
+             android:paddingRight="8dp"
+             android:layout_height="wrap_content" />
+         
+         <TextView
+             android:id="@+id/NepaliNameValue"
+             android:text="कुरिलो "
+             android:layout_weight="1"
+             android:layout_height="wrap_content" />  
+     </TableRow>
+     
+    <TableRow 
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_weight="2" >
+         <TextView
+         	 android:layout_weight="1"
+             android:id="@+id/Diseases"
+             android:layout_width="fill_parent"
+             android:text="Diseases"
+             android:layout_height="fill_parent" />
+         
+          <TextView
+             android:id="@+id/DiseasesValue"
+             android:layout_weight="1"
+             android:layout_width="wrap_content"
+             android:text="Fusarium wilt ,Phytophthora crown and spear rot ,Asparagus rust,Asparagus beetle"
+             android:layout_height="wrap_content" />
+     </TableRow>
+  
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:padding="5dp">
+        <TextView
+             android:id="@+id/ImpChemicals"
+             android:text="Important Chemical/Nutrients for growth"
+  			 android:paddingRight="8dp"      
+             android:layout_weight="1"
+             android:layout_height="wrap_content"
+             android:textSize="15sp" />
+         
+         <TextView
+             android:id="@+id/ImpChemicalsValue"
+             android:layout_weight="1"
+             android:text="TBD"
+             android:layout_height="wrap_content"/>
+     </TableRow>
+
+     <TableRow 
+         android:layout_height="wrap_content" 
+         android:padding="5dp">
+         <TextView
+             android:id="@+id/BestTimeHarvest"
+             android:text="Best time for harvest"
+             android:layout_weight="1"
+             android:paddingRight="8dp"
+             android:layout_height="wrap_content"/>
+         
+         <TextView
+             android:id="@+id/BestTimeHarvestValue"
+             android:layout_weight="1"
+             android:text="1 year after planting"
+             android:layout_height="wrap_content" />
+     </TableRow>  
+
+	
+
+     
+</TableLayout>
+</ScrollView> 
+</LinearLayout>
+    
+<!-- 
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingTop="8dp"
+        android:text="This is a header"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+ -->

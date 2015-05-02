@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Verdure</string>
+    <string name="chooseVegetable">Choose Vegetable:</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_title">Search</string>
+    <string name="button">Select</string>
+    <string name="selectedVegetable">(selected Vegetable Details):</string>
+    <string name="show_symptoms">Show Symptoms</string>
+    <string name="show_details">Show Details</string>
+    <string name="symptoms">Choose Symptoms found:</string>
+    <string name="select_symptoms">Select Symptoms</string>
+    <string name="disease">Disease</string>
+
+    <!-- Diseases page -->
+    <string name="blackLeg">Black Leg</string>
+    <string name="downyMildew">Downy mildew</string>
+    <string name="dampingOff">Damping-off</string>
+    <!-- //Diseases page -->
+
+
+    <!-- symptoms from checkbox -->
+
+    <string name="dampSeeds">Damping of Seedlings</string>
+    <string name="irregularLeaves">Irregular lesions leaves</string>
+    <string name="pinkLesions">Pink Lesions</string>
+    <string name="discolouredBlotchesLeaves">Discoloured blotches leaves</string>
+    <string name="mouldLikeLeaves">Mould-like growth leaves</string>
+    <string name="shriveledBrownLeaves">Shriveled Brown Leaves</string>
+    <string name="seedlingsFailEmerge">Seedlings fail to emerge</string>
+    <string name="seedlingsCollapse">Seedlings Collapse</string>
+    <string name="whitishFungalGrowth">Whitish Fungal growth</string>
+    <string name="wateryLeaves">Watery Rot Leaves</string>
+    <string name="extensiveLesions">Extensive Internal Cavities</string>
+    <string name="BrownLesions">Brown Lesions</string>
+    <string name="SunkenLesions">Sunken Thumb-mark Lesions</string>
+    <string name="StuntedGrowth">Stunted Growth</string>
+    <string name="WhiteBlisters">White Blisters Leaves</string>
+    <string name="SwollenRoot">Swollen Root System</string>
+    <string name="PurpleFoliage">Purple Foliage</string>
+    <string name="DistortedRoots">Distorted Root System</string>
+    <string name="FungalGrowth">Fungal Growth</string>
+    <string name="brownLeaves">Shriveled Brown Leaves</string>
+    <string name="wiltingLeaves">Wilting of Leaves</string>
+    <string name="witheringPlant">Withering Of Plant</string>
+    <string name="Beetles">Presence Of Beetles</string>
+    <string name="SpottedBeetles">Spotted/Stripped Beetles Present</string>
+    <string name="DyingSeedlings">Dying Seedlings</string>
+    <string name="WiltingStem">Wilting Stem</string>
+    <string name="PowderyPatches">Powdery Patches Present</string>
+    <string name="StuntedTissue">Stunted Tissues</string>
+    <string name="DistortedTissue">Distorted Tissues</string>
+    <string name="BrownTissue">Brownish Streaks on Tissues</string>
+    <string name="BlackWhip">Black Whip-like Structures</string>
+    <string name="SpindlyShoots">Spindly Shoots</string>
+    <string name="SpindleLeaves">Spindly Erect Leaves</string>
+    <string name="GrayMould">Fuzzy Gray Moulds</string>
+    <string name="GrayWebbing">Gray Webbing Leaves</string>
+    <string name="ShriveledFlowers">Shriveled Flowers</string>	
+    <string name="PlantDeath">Rapid Plant Death</string>
+    <string name="Mites">Presence of Mites</string>
+    <string name="YellowPlant">Distinctive Intervinal Yellowing</string>
+    <string name="seeDisease">See Disease</string>
+
+
+    <!-- //symptoms from checkbox end -->
+
+    <string-array name="vegetables">
+        <item>Cauliflower</item>
+        <item>Cabbage</item>
+        <item>Tomato</item>
+        <item>Potato</item>
+        <item>Onion</item>
+        <item>Garlic</item>
+        <item>Carrot</item>
+        <item>Coriander</item>
+        <item>Radish</item>
+        <item>Pumpkin</item>
+    </string-array>
+  
+
+</resources>

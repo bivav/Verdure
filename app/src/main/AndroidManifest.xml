@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cyberChautari.verdure">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/app_logo"
+        android:theme="@style/Theme.Example" >
+
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.cyberChautari.verdure.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.cyberChautari.verdure.SymptomsCauliflower"
+            android:label="@string/select_symptoms"
+            android:parentActivityName="com.cyberChautari.verdure.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cyberChautari.verdure.MainActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.cyberChautari.verdure.SymptomsCabbage"
+            android:label="@string/select_symptoms"
+            android:parentActivityName="com.cyberChautari.verdure.MainActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cyberChautari.verdure.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".SymptomsTomato"
+            android:label="@string/select_symptoms"
+            android:parentActivityName="com.cyberChautari.verdure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cyberChautari.verdure.MainActivity"/>
+            </activity>
+
+        <activity
+            android:name=".SymptomsPotato"
+            android:label="@string/select_symptoms"
+            android:parentActivityName="com.cyberChautari.verdure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cyberChautari.verdure.MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".SymptomsOnion"
+            android:label="@string/select_symptoms"
+            android:parentActivityName="com.cyberChautari.verdure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cyberChautari.verdure.MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".SymptomsGarlic"
+            android:label="@string/select_symptoms"
+            android:parentActivityName="com.cyberChautari.verdure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cyberChautari.verdure.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".SymptomsRaddish"
+            android:label="@string/select_symptoms"
+            android:parentActivityName="com.cyberChautari.verdure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cyberChautari.verdure.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".SymptomsCorriander"
+            android:label="@string/select_symptoms"
+            android:parentActivityName="com.cyberChautari.verdure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cyberChautari.verdure.MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".SymptomsPumpkin"
+            android:label="@string/select_symptoms"
+            android:parentActivityName="com.cyberChautari.verdure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cyberChautari.verdure.MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".SymptomsCarrot"
+            android:label="@string/select_symptoms"
+            android:parentActivityName="com.cyberChautari.verdure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cyberChautari.verdure.MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".SymptomsAsparagus"
+            android:label="@string/select_symptoms"
+            android:parentActivityName="com.cyberChautari.verdure.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cyberChautari.verdure.MainActivity"/>
+        </activity>
+
+
+        <activity
+            android:name=".DetailsAsparagus"
+            android:label="@string/select_symptoms"
+            android:parentActivityName=".SymptomsCauliflower">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SymptomsCauliflower"/>
+            </activity>
+
+        <activity
+            android:name=".DiseaseBlackLeg"
+            android:label="@string/disease"
+            android:parentActivityName=".SymptomsCauliflower">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SymptomsCauliflower"/>
+            </activity>
+
+        <activity
+            android:name=".DiseaseDownyMildew"
+            android:label="@string/disease"
+            android:parentActivityName=".SymptomsCauliflower">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SymptomsCauliflower"/>></activity>
+
+        <activity
+            android:name=".DiseaseDampingOff"
+            android:label="@string/disease"
+            android:parentActivityName=".SymptomsCauliflower">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SymptomsCauliflower"/>></activity>
+
+        <activity android:name=".DetailsCabbage"></activity>
+
+        <activity android:name=".DetailsCarrot"></activity>
+
+        <activity android:name=".DetailsCauliflower"></activity>
+
+        <activity android:name=".DetailsCoriander"></activity>
+
+        <activity android:name=".DetailsGarlic"></activity>
+
+        <activity android:name=".DetailsOnion"></activity>
+
+        <activity android:name=".DetailsPotato"></activity>
+
+        <activity android:name=".DetailsPumpkin"></activity>
+
+        <activity android:name=".DetailsRadish"></activity>
+
+        <activity android:name=".DetailsTomato"></activity>
+
+</application>
+
+</manifest>
