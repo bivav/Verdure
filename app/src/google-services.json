@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "855396657172",
+    "firebase_url": "https://android-app-ece27.firebaseio.com",
+    "project_id": "android-app-ece27",
+    "storage_bucket": "android-app-ece27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855396657172:android:b4dd5e495308854b",
+        "android_client_info": {
+          "package_name": "com.cyberChautari.verdure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855396657172-6h7b64504nl03hj23hdj8ik4rfcg4dmj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQcMLKMR6d55FkW5tHkzRemAOB_mT_Ggo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -34,8 +34,7 @@
         android:spinnerMode="dropdown"
         android:layout_below="@+id/dropDownVegetable"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        tools:targetApi="honeycomb" />
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/symptoms_button"
